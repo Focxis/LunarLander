@@ -1,0 +1,59 @@
+body{
+background-image: url("../img/fondo2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-attachment: center;
+background-size: cover;
+list-style-type: none;
+}
+
+
+.izquierda,.centro,.derecha{display:inline-block;width:33.33%;min-height:100%;float:left;}
+.aterrizaje{height:10%;width:100%;position:fixed;bottom:0px;}
+#nave {
+	text-align:center;
+	position: relative;
+} 
+#estadisticas{
+	width: 150px;
+	height: 100px;
+	color: white;
+	position: relative;
+	left: 25px;
+	top: 25px;
+	float: left;
+}
+
+#panel{list-style-type: none;margin:0;padding:0;}
+
+#menu{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	right: 25px;
+	top: 25px;
+	float: right;
+}
+
+#instrucciones3{
+	width: 150px;
+	height: 275px;
+	color: white;
+	position: relative;
+	background-color: red;
+	margin: auto;
+	font-size: 20px;
+	top: 10px;
+}
+
+#opciones2{
+	width: 150px;
+	height: 50px;
+	background-color:red;
+	border: 10px solid gray;
+	margin: auto;
+}
+
+#botones {list-style-type:none;}
+#pausa,#restart,#instrucciones,#instrucciones2{display:none;}
+.vesc{display:none;}

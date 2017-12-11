@@ -1,0 +1,51 @@
+body{
+background-image: url("../img/fondo2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-attachment: center;
+background-size: cover;
+}
+body,html{height:100%;padding:0px;margin:0px}
+body{font-size:2vw}
+
+.izquierda,.centro,.derecha{display:inline-block;width:33.33%;min-height:100%;float:left;}
+.aterrizaje{height:10%;width:100%;position:fixed;bottom:0px;}
+
+#estadisticas{
+	width: 250px;
+	height: 200px;
+	color: white;
+	position: relative;
+	left: 25px;
+	top: 50px;
+	float: left;
+}
+
+#panel{list-style-type: none;margin:0;padding:0;}
+
+#menu{
+	width: 250px;
+	height: 200px;
+	position: relative;
+	right: 25px;
+	top: 50px;
+	float: right;
+	list-style-type:none;
+}
+
+#instrucciones2{
+	width: 250px;
+	height: 250px;
+	color: white;
+	position: relative;
+	background-color: red;
+	margin: auto;
+	font-size: 23px;
+}
+
+
+#botones {list-style-type:none;}
+#nave{text-align:center;position:relative;}
+#opciones,#instrucciones3,#opciones2{display:none;}
+.vmov{display:none;}
+.vesc{}
